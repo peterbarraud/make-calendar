@@ -9,3 +9,9 @@ The output month.html file is created.
 
 
 I chose to make a specific file name. Just so we don't end up making a whole bunch of files for different months.
+
+## BeautifulSoup
+You'll need to install the BeautifulSoup lib
+```
+pip install beautifulsoup4
+```
