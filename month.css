@@ -1,0 +1,12 @@
+table {
+  width: 100%; /* Sets the table to span the full width of its container/viewport */
+  border-collapse: collapse; /* Optional: Makes borders single and cleaner */
+  height: 100%;
+}
+th, td {
+  border: 1px solid black;
+  padding: 0px 0px 100px 0px;
+  text-align: center;
+  font-size: 74px;
+  font-family: Arial, Helvetica, sans-serif;
+}
