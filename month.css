@@ -10,3 +10,9 @@ th, td {
   font-size: 74px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.titletd{
+    padding: 0px;
+}
+.weekender {
+    background-color: eeeeee;
+}
