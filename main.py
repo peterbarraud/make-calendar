@@ -74,6 +74,7 @@ def main(which_month : WhichMonth):
             f.write('</tr>')
         f.write('</table>')
         f.write('</body></html>')
+        print(f"Done - Created Month.html for {month_full_name}, {year}")
 
 if __name__ == "__main__":
     now : datetime = datetime.now()
