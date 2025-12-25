@@ -53,6 +53,10 @@ def main(which_month : WhichMonth):
     with open('month.html', 'w') as f:
         f.write(f'<html><head><title>{month_full_name}</title><link rel="stylesheet" href="month.css"></head><body>')
         f.write('<table>')
+        f.write('<tr>')
+        [f.write(f'<td class="dayoftheweek">{dotw}</td>') for dotw in ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']]
+        f.write('</tr>')
+
         c = 0
         for row in soup.find_all('tr'):
             f.write('<tr>')
