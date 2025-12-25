@@ -15,3 +15,6 @@ You'll need to install the BeautifulSoup lib
 ```
 pip install beautifulsoup4
 ```
+
+## Note
+Remember when you're printing via the Browser, you need to pick **Backgroud Graphics** in the **Options** sections of the Print dialog
