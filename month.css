@@ -7,7 +7,7 @@ th, td {
   border: 1px solid black;
   padding: 0px 0px 100px 0px;
   text-align: center;
-  font-size: 74px;
+  font-size: 70px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .titletd{
@@ -15,4 +15,8 @@ th, td {
 }
 .weekender {
     background-color: eeeeee;
+}
+.dayoftheweek {
+  padding: 0px;
+  font-size: 54px;
 }
